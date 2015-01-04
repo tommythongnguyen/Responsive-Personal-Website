@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head >
+<meta charset="utf-8">
+<title>Responsive Persional Website</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<link href="stylesheets/index.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-fixed-width" role="navigation" >
+        <div class="container">
+            <header class="navbar-header ">
+                <a href="index.html" class="navbar-brand classic">Persional Site</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-dropdown">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </header>
+            <nav class="collapse navbar-collapse" id="nav-dropdown">
+                	<ul class="nav navbar-nav navbar-right" >
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="html/photos.html">PHOTOS</a></li>
+                        <li><a href="html/media.html">MEDIA</a></li>
+                        <li><a href="html/about.html">ABOUT</a></li>
+                    	<li><a href="html/contact.html">CONTACT</a></li>    
+                 	</ul>
+        	</nav>
+        </div>
+    </div>
+
+    <section class="container bodyContainer homePageBg">
+        <div class="jumbotron classic" style="color:rgb(39,40,34); margin-top:10px">
+   	  		<center><h1>Home Page</h1>
+      		<p class="h4"> Tommy Thong Nguyen - Software Engineering </p>
+            <a href="https://github.com/tommythongnguyen" class="btn btn-info">Visit Me</a>
+         </div></center>
+         <div class="quoteContainer">
+             <article id="quoteArticle">
+                 <div class="row"> 
+                    <blockquote class="col-xs-12 col-sm-7 col-md-6 pull-right" id="blockquoteStyle">
+                         <p id="quote"></p>
+                        <small></small>
+                    </blockquote>
+                 </div>
+             </article>
+         </div>
+    </section>
+
+
+    
+    <footer class="navbar navbar-fixed-bottom navbar-fixed-width-bottom" id="footerStyle"> 
+        <div class="container">       
+                <p id="footerTextAlign">&copy;Tommy Thong Nguyen</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type ="text/javascript" src="js/randomQuotation.js"></script>
+</body>
+</html>

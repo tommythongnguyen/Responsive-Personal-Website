@@ -1,0 +1,89 @@
+html,body{
+	height: 100%;
+	color:white;
+}
+
+.bodyContainer{
+	
+	padding-top:50px;
+	
+  position:relative;
+  background:url(../graphics/background/collectionBackground.png) no-repeat; 
+  background-size:  cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.homePageBg{
+  height:100%;
+}
+#footerTextAlign{
+	text-align:center; 
+	padding-top:15px;"
+}
+#footerStyle{
+	background-color:rgb(99,167,199); 
+	color:lightsilver;
+
+}
+.classic{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#blockquoteStyle{
+	background-color:rgba(23,23,23,0.5); 
+	padding: 33px 20px 33px 10px; 
+	
+	border-radius: 0px 80px 10px 80px;
+	-moz-border-radius: 0px 80px 10px 80px;
+	-webkit-border-radius: 0px 80px 10px 80px;
+	border:1px transparent solid;
+}
+.quoteContainer{
+	padding:20px;
+}
+.blockAlign{
+	margin-right:10px;
+}
+#quoteArticle{
+	margin-top:15px;
+}
+@media all and (min-width: 768px) {
+  .navbar-fixed-width {
+    width: 768px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .navbar-fixed-width-bottom{
+  	width:750px;
+  	margin-left: auto;
+    margin-right:auto;
+  }
+  
+}
+@media all and (min-width: 992px) {
+  .navbar-fixed-width {
+    width: 992px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .navbar-fixed-width-bottom{
+  	width:970px;
+  	margin-left: auto;
+    margin-right:auto;
+  }
+ 
+}
+@media all and (min-width: 1200px) {
+  .navbar-fixed-width {
+    width: 1200px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .navbar-fixed-width-bottom{
+  	width:1170px;
+  	margin-left: auto;
+    margin-right:auto;
+  }
+  
+}
+

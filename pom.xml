@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>com.logicdrop.wam.ux</artifactId>
+	
+	<description>Angular</description>
+	<!-- ********** Parent ********** -->
+	<parent>
+		<artifactId>com.logicdrop.wam</artifactId>
+		<groupId>com.logicdrop.wam</groupId>
+		<version>1.1.8-SNAPSHOT</version>
+	</parent>
+	<!-- ********** Properties ********** -->
+	<properties>
+		<web.port>9003</web.port>
+		<web.path>/web</web.path>
+	</properties>
+	<!-- ********** Build ********** -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<configuration>
+					<webAppSourceDirectory>www</webAppSourceDirectory>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<webResources>
+						<resource>
+							<directory>www</directory>
+						</resource>
+					</webResources>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<!-- ********** Profiles ********** -->
+	
+</project>

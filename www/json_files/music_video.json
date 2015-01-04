@@ -1,0 +1,26 @@
+[
+  {
+    "src": "https://www.youtube-nocookie.com/embed/J3SrUZh96Lg",
+    "title": "Wear It Again by Westlife",
+    "img": "../graphics/AlbumThumNails/swearItAgain.jpg",
+    "alt": "Swear It Again"
+  },
+  {
+    "src": "http://www.youtube.com/v/b_ILDFp5DGA?version=3&amp;hl=en_US",
+    "title": "Hello by Lionel Richie",
+    "img": "../graphics/AlbumThumNails/hello.jpg",
+    "alt": "Hello"
+  },
+  {
+    "src": "http://www.youtube-nocookie.com/embed/pq6lsZoWcFE",
+    "title": "Just Dance by Lady Gaga",
+    "img": "../graphics/AlbumThumNails/justDance.jpg",
+    "alt": "SJust Dace"
+  },
+  {
+    "src": "http://www.youtube-nocookie.com/embed/pq6lsZoWcFE",
+    "title": "Heal The world by Michael Jackson",
+    "img": "../graphics/AlbumThumNails/healTheWorld.jpg",
+    "alt": "Heal The World"
+  }
+]

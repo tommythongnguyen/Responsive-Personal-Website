@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Greatest Hits",
+    "title": "Greatest Hits by Westlife",
+    "img": "../graphics/AlbumThumNails/westLife.jpg",
+    "description": "Greatest Hits is the second greatest hits album and final release by Irish boy band Westlife. It was released on 18 November 2011 by RCA Records and Sony Music. Greatest Hits is the group's second greatest hits album following Unbreakable.",
+    "songs": [
+      {
+        "name": "Season In The Sun",
+        "src": "../audio/albums/westlife/Seasons_In_the_Sun.mp3"
+      },
+      {
+        "name": "Show Me The Meaning Of Being Lonely",
+        "src": "../audio/albums/westlife/Show_Me_The_Meaning_Of_Being_Lonely.mp3"
+      }
+    ]
+  },
+  {
+    "name": "Christmas Tales",
+    "title": "Christmas Tales by Alexander Rybak",
+    "img": "../graphics/AlbumThumNails/christmasTales.jpg",
+    "description": "Alexander Rybak won the Eurovision Song Contest in 2009 quite convincingly with Fairytale. His first two albums were all in English, while the last one titled Resan Till Dig was in Norwegian.",
+    "songs": [
+      {
+        "name": "Rudolph The Red-Nosed Reindeer",
+        "src": "../audio/albums/chirstmas/Rudolph_the_Red-Nosed_Reindeer.mp3"
+      },
+      {
+        "name": "Let It Snow",
+        "src": "../audio/albums/chirstmas/Let_It_Snow.mp3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<div class="row audioRowStyle">
+        <div clas="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 voffset">
+            <div class="col-sm-8 col-sm-offset-2">
+                <audio controls sr="" id="audioPlayer">
+                    Your browser does not support the <audio> element
+                </audio>
+            </div>
+           <div class="col-sm-8 col-sm-offset-2">
+                <ul class="list-group" id="list-group-style">
+                {{#songs}}
+                  <a href="#"><li class="list-group-item ">{{name}}</li></a>
+                {{/songs}}
+                </ul>
+            </div>
+        </div>
+</div>

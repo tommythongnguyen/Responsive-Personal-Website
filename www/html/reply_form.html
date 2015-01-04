@@ -1,0 +1,39 @@
+<!-- saved from url=(0014)about:internet -->
+<HTML>
+<HEAD>
+<TITLE>Nu-Design Data Submitted Display</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" onLoad="disp()">
+<SCRIPT LANGUAGE='JavaScript'>
+<!--
+//Nu-Design 12/02
+//Displays data submitted via get method
+function disp(){
+
+  srch_string = document.location.search.substring(1, document.location.search.length);
+  srch_array = srch_string.split("&");
+  ctr=0;
+  show_string='<b>Thank you for your message. I will contact you as soon as i can. Have a good day</b>' + "\n" + '<ul>' + "\n";
+
+  while(srch_array[ctr]){
+    temp = srch_array[ctr];
+    temp_array = temp.split("=");
+    temp_val = temp_array[1];
+
+    while(temp_val.indexOf("+")>0){
+      temp_val = temp_val.replace("+"," ");
+    }
+
+    show_string = show_string + '<li><b>' + temp_array[0] + ':</b> ' + temp_val + '</li>' + "\n";
+    ctr++;
+  }
+
+  document.write(show_string + '</ul>');
+}
+// -->
+</SCRIPT>
+<br>
+<p><img src="graphics/DSC00336.jpg" with="500px" height="350px"></p>
+</BODY>
+</HTML>

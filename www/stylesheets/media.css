@@ -1,0 +1,120 @@
+
+#myTabContent{
+	/*padding: 20px;*/
+	background-color: rgba(238,238,211,0.4);
+	padding-bottom:5%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#myNavTabs{
+	border-bottom-color: rgb(55,177,213);
+}	
+.voffset{
+	margin-top:5%;
+}
+.rowPadding{
+	padding:0 1%;
+}
+.audioRowStyle{
+	padding:5% 1% 0 1%;
+
+}
+#tabPanelContainer{
+	width:80%; 
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:65%;
+	font-size:1.2em;
+}
+
+#modalTitle{
+	color:rgb(20,20,20);
+}
+#mediaModal{
+
+}
+#description{
+	background-color:rgba(99,167,199,0.7);
+	margin:0;
+}
+#modalBody{
+	padding-bottom:0;
+}
+#modalBody iframe{
+	display:block;
+}
+.hidden{
+	display:none;
+}
+#description{
+	padding:4%;
+	font-size:1.5em;
+	color:rgb(12,12,11);
+}
+
+.col-sm-offset-right-2{
+	margin-right:16.66666667%;
+}
+.col-sm-offset-right-1:{
+	margin-right:10%;
+}
+.col-sm-margin-lef{
+	margin-left:10%;
+}
+#col-sm-offset{
+	margin-left:11.5%;
+}
+.musicTabRowPadding{
+	padding: 0 3%;
+}
+#musicTabDescription{
+	font-size:1.2em; 
+	margin-left:3%;
+	margin-right:3%;
+}
+#musicTabDescription p{
+	padding:3%;
+	background-color:rgba(99,167,199,0.4);
+}
+.thumbnail-margin{
+	margin-bottom:10px;
+}
+.figureStyle{
+	background-color:gray;
+}
+.figcaptionStyle{
+	padding-bottom: 10px;
+}
+#audioPlayer{
+	width:100%;
+}
+ul#list-group-style a:last-child li{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#list-group-style a li{
+	color:black;
+	background-color: rgba(97,124,137,0.4);
+}
+#list-group-style a{
+	 text-decoration: none;
+}
+#list-group-style a:hover{
+	 text-decoration: none;
+}
+#list-group-style a li:hover{
+	 background-color:rgba(96,194,240,0.5);
+}
+@media (max-width: 768px){
+	.figcaptionStyle{
+		display:none;
+	}
+	#musicTabDescription{
+	font-size:1.2em; 
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+}
+}
+
+
