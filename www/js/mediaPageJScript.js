@@ -87,7 +87,7 @@ $(function(){
    var navTabs=$("#myNavTabs");
 
    //----add Tab Switch listener----
-   navTabs.find("a").on("click",function(event){
+   navTabs.find('a[data-toggle="tab"]').on("click",function(event){
         //save current activeTab
         videoObj.activeTab=$(this).html();
 
@@ -101,6 +101,14 @@ $(function(){
              videoObj.renderTab(videoObj.albumJsonFile,videoObj.albumData,$("#albumsTab"));
         }
    });
+   //-------turn off music if Tabs are switching--------
+   navTabs.find('a[data-toggle="tab"]').on("show.bs.tab",function(event){
+      console.log("turned of music:" ,$("#audioPlayer").length );
+      if($("#audioPlayer").length && (!$("#audioPlayer")[0].paused)){
+          $("#audioPlayer")[0].pause();
+      }
+   })
+
 
    //------------Medial Modal Event------
    $("#myTabContent").on("click",function(event){

@@ -163,7 +163,7 @@ mySite.showPhotoModal=function(event){
                           });
          
           //---add show image on bootstrap modal
-           mySite.photoModal.find(".modal-body >img").attr({"src":imgsrc, "width":"200px", "height":"200px"});
+           mySite.photoModal.find(".modal-body >img").attr({"src":imgsrc});
 
           //---Play and Stop click event
            mySite.photoModal.find("#btnPlay").on("click",function(event){
