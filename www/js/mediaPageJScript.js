@@ -162,7 +162,9 @@ $(function(){
              
               if(currentAlbum.length >0){
                 //check if user browser support audio element
+
                 if(Modernizr.audio && Modernizr.audio.mp3){
+                  console.log("inside Modernizr: ",currentAlbum[0])
                    var audioTemplate = Mustache.render(videoObj.audioPlayerTmpl,{"songs":currentAlbum[0].songs});
                     var albumsTab =$("#albumsTab");
                     //check if the audio is alreay exist
@@ -221,7 +223,7 @@ $(function(){
       //update  audioPlayer
       var audioPlayer = $("#audioPlayer");
       
-      console.log("audioSource",obj[0].src);
+      audioPlayer.attr("src",obj[0].src);
       audioPlayer[0].load();
       audioPlayer[0].play();
      
