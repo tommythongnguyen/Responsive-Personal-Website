@@ -3,7 +3,7 @@ Responsive-Personal-Website
 
 My Responsive Personal Website is design to work cross-browsers and cross-devices
 
-In order to run the website properly, you need to run web app server
+In order to run the website properly, you need to run web app server<br />
 1/go to folder "Responsive-Persional-Website":  cd Responsive-Persional-Website
 2/and then run jetty server:                    mvn jetty:run
 3/open your favourite web browser and type:  http://localhost:9003/web
