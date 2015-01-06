@@ -1,0 +1,30 @@
+#myPanelContainer{
+	width:90%;
+	background-color: rgba(238,238,211,0.4);
+	padding-bottom: 5%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top:0;
+	margin-bottom: 5%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:1.7em;
+}
+#myPanelContainer.panel-body{
+	
+}
+#myPanelContainer ul li{
+	list-style-type:none;
+}
+#myPanelContainer ul li:not(:first-child){
+	padding-top:1%;
+}
+.list-header{
+	background-color: dimgray;
+	border-radius: 4px;
+	padding: 3px 6px;
+	color: khaki;
+}
+.list-style{
+	padding:1% 5%;
+}

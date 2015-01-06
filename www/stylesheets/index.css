@@ -47,6 +47,18 @@ html,body{
 #quoteArticle{
 	margin-top:15px;
 }
+
+.myLogo{
+     width:70%;
+     height:auto
+  }
+.logoContainer{
+  width:8%;
+  height:auto;
+  position:absolute;
+  top:70px; 
+  left:5%
+}
 @media all and (min-width: 768px) {
   .navbar-fixed-width {
     width: 768px;
@@ -57,6 +69,10 @@ html,body{
   	width:750px;
   	margin-left: auto;
     margin-right:auto;
+  }
+  .myLogo{
+     width:80%;
+     height:auto
   }
   
 }
@@ -71,6 +87,10 @@ html,body{
   	margin-left: auto;
     margin-right:auto;
   }
+  .myLogo{
+     width:90%;
+     height:auto
+  }
  
 }
 @media all and (min-width: 1200px) {
@@ -84,6 +104,10 @@ html,body{
   	margin-left: auto;
     margin-right:auto;
   }
-  
+  .myLogo{
+     width:90%;
+     height:auto
+  }
 }
+
 
