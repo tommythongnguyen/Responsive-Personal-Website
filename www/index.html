@@ -45,7 +45,33 @@
             		<p class="h4"> Tommy Thong Nguyen - Software Engineering </p>
                 <a href="https://github.com/tommythongnguyen" class="btn btn-info">Visit Me</a>
           </center><br />
-          <img src="graphics/background/aboutme.jpg" style="width:100%; height:auto"/>
+         <!--  <img src="graphics/background/aboutme.jpg" style="width:100%; height:auto"/> -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <section class="carousel-inner" role="listbox">
+                    <div class="active item"><img src="graphics/carousel/editedCarousel1.jpg" alt="Photo Black Friday shoping" style="width:100%;height:auto"></div>
+
+                    <div class="item"><img src="graphics/carousel/editedCarousel2.jpg" alt="Photo Black Friday shoping" style="width:100%;height:auto"></div>
+
+                    <div class="item"><img src="graphics/carousel/editedCarousel3.jpg" alt="Photo Black Friday shoping" style="width:100%;height:auto"></div>
+
+                    <div class="item"><img src="graphics/carousel/editedCarousel4.jpg" alt="Photo Black Friday shoping" style="width:100%;height:auto"></div>
+
+                </section>
+
+                <!-- add navigation: bunch of anchors -->
+                <a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+
+                <a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <!-- add Indicator: the dots -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+            </div>
+           <!--  <div class="item"><img src="graphics/carousel/editedCarousel4.jpg" alt="Photo Black Friday shoping"></div> -->
          </div>
 
          <div class="quoteContainer">
@@ -59,9 +85,9 @@
              </article>
          </div>
     </section>
-
-
-    
+   <ul class="nav">
+    li*5>a  
+   </ul>
     <footer class="navbar navbar-fixed-bottom navbar-fixed-width-bottom" id="footerStyle"> 
         <div class="container">       
                 <p id="footerTextAlign">&copy;Tommy Thong Nguyen</p>
@@ -72,5 +98,14 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script type ="text/javascript" src="js/randomQuotation.js"></script>
+    <script>
+        $(function(){
+            console.log("run carousel");
+                $("#myCarousel").carousel({
+                interval:3000
+            }) 
+        })
+        
+    </script>
 </body>
 </html>
