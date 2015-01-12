@@ -212,4 +212,7 @@ $(function(){
 $(function(){
   //photo thumbs nail event listenter
   $("article#quoteArticle").on("click",mySite.showPhotoModal);
+  
+  //show tooltip
+  $("a.thumbnail img").tooltip({animation:true, trigger:"hover", placement:"auto top"});
 });

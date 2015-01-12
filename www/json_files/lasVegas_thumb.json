@@ -1,42 +1,52 @@
 [
   {
     "img": "../graphics/thumbs/lasVegas/vegas1.jpg",
-    "alt": "pic1"
+    "alt": "pic1",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas2.jpg",
-    "alt": "pic2"
+    "alt": "pic2",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas3.jpg",
-    "alt": "pic3"
+    "alt": "pic3",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas4.jpg",
-    "alt": "pic4"
+    "alt": "pic4",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas5.jpg",
-    "alt": "pic5"
+    "alt": "pic5",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas6.jpg",
-    "alt": "pic6"
+    "alt": "pic6",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas7.jpg",
-    "alt": "pic7"
+    "alt": "pic7",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas8.jpg",
-    "alt": "pic8"
+    "alt": "pic8",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas9.jpg",
-    "alt": "pic9"
+    "alt": "pic9",
+    "imageTitle":"A Trip To Las Vegas"
   },
   {
     "img": "../graphics/thumbs/lasVegas/vegas10.jpg",
-    "alt": "pic10"
+    "alt": "pic10",
+    "imageTitle":"A Trip To Las Vegas"
   }
 ]

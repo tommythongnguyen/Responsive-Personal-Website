@@ -1,0 +1,28 @@
+ <h4 class="list-header">FAVORITE BOOKS</h4>
+ <div class="panel-group" id="books" role="tablist" aria-multiselectable="true">
+    {{#list}}
+     <!-- HTML BOOKS -->
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading{-{bookType}}">
+          <h4 class="panel-title">
+            <a style="text-decoration:none" data-toggle="collapse" data-parent="#books" href="#{{bookType}}" aria-expanded="true" aria-controls="{{bookType}}">
+              <span class="glyphicon glyphicon-book"></span>  {{bookType}}
+            </a>
+          </h4>
+        </div>
+        <!-- body -->
+        <div id="{{bookType}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{bookType}}">
+          <div class="panel-body">
+            {{#collection}}
+              <section class="panel panel-success">
+                <div class="panel-heading">Author: {{author}}</div>
+                <div class="panel-body" style="color:black">
+                  {{name}}
+                </div>
+              </section>
+            {{/collection}}
+          </div>
+        </div>
+    </div><!--End of HTML Books-->
+    {{/list}}
+</div><!--end of occoridan-->

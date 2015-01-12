@@ -1,0 +1,66 @@
+[
+  {
+    "bookType": "HTML-CSS",
+    "collection": [
+      {
+        "name": "HTML And CSS - Design And Build Website",
+        "author": "John Duckett"
+      },
+      {
+        "name": "HTML5 And CSS3 - Level Up with Today's Web Technologies",
+        "author": "Brian Hogan"
+      },
+      {
+        "name": "Less Web Development Essentials",
+        "author": "Bass Jobsen"
+      },
+      {
+        "name": "Responsive Web Design with HTML5 and CSS3",
+        "author": "Ben Frain"
+      }
+    ]
+  },
+  {
+    "bookType": "JAVASCRIPT",
+    "collection": [
+      {
+        "name": "Effective JavaScript",
+        "author": "David Herman"
+      },
+      {
+        "name": "JavaScrip: The GoodParts",
+        "author": "Douglas Crockford"
+      },
+      {
+        "name": "Professional JavScript for Web Developers",
+        "author": "Nicholas C.Zakas"
+      }
+    ]
+  },
+  {
+    "bookType": "JQUERY",
+    "collection": [
+      {
+        "name": "Pro jQuery 2.0",
+        "author": "Adam Freeman"
+      },
+      {
+        "name": "jQuery Succinctly",
+        "author": "Cody Lindley"
+      }
+    ]
+  },
+  {
+    "bookType": "ANGULAR",
+    "collection": [
+      {
+        "name": "ng-book: The Complete Book on AngularJS",
+        "author": "Ari Lerner"
+      },
+      {
+        "name": "Pro AngularJS",
+        "author": "Adam Freeman"
+      }
+    ]
+  }
+]

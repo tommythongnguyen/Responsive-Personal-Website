@@ -1,66 +1,82 @@
 [
   {
     "img": "../graphics/thumbs/family/pic1.jpg",
-    "alt": "pic1"
+    "alt": "pic1",
+    "imageTitle":"My Sister and My Nieces"
   },
   {
     "img": "../graphics/thumbs/family/pic2.jpg",
-    "alt": "pic2"
+    "alt": "pic2",
+    "imageTitle":"My Niece's On The Beach"
   },
   {
     "img": "../graphics/thumbs/family/pic3.jpg",
-    "alt": "pic3"
+    "alt": "pic3",
+    "imageTitle":"Together"
   },
   {
     "img": "../graphics/thumbs/family/pic4.jpg",
-    "alt": "pic4"
+    "alt": "pic4",
+    "imageTitle":"My Lovely One"
   },
   {
     "img": "../graphics/thumbs/family/pic5.jpg",
-    "alt": "pic5"
+    "alt": "pic5",
+    "imageTitle":"My Sister and Her Husband"
   },
   {
     "img": "../graphics/thumbs/family/pic6.jpg",
-    "alt": "pic6"
+    "alt": "pic6",
+    "imageTitle":"A Couple and the Beach"
   },
   {
     "img": "../graphics/thumbs/family/pic7.jpg",
-    "alt": "pic7"
+    "alt": "pic7",
+    "imageTitle":"Visiting a Resort"
   },
   {
     "img": "../graphics/thumbs/family/pic8.jpg",
-    "alt": "pic8"
+    "alt": "pic8",
+    "imageTitle":"Swimming Pool"
   },
   {
     "img": "../graphics/thumbs/family/pic9.jpg",
-    "alt": "pic9"
+    "alt": "pic9",
+    "imageTitle":"Relaxing Place"
   },
   {
     "img": "../graphics/thumbs/family/pic10.jpg",
-    "alt": "pic10"
+    "alt": "pic10",
+    "imageTitle":"A Couple"
   },
   {
     "img": "../graphics/thumbs/family/pic11.jpg",
-    "alt": "pic11"
+    "alt": "pic11",
+    "imageTitle":"A Cup of Coffee with Friend"
   },
   {
     "img": "../graphics/thumbs/family/pic12.jpg",
-    "alt": "pic12"
+    "alt": "pic12",
+    "imageTitle":"The Favorit Beverage"
   },
   {
     "img": "../graphics/thumbs/family/pic13.jpg",
-    "alt": "pic13"
+    "alt": "pic13",
+    "imageTitle":"A Corner Above Hang River"
   },
   {
     "img": "../graphics/thumbs/family/pic14.jpg",
-    "alt": "pic14"
+    "alt": "pic14",
+    "imageTitle":"The Favorit Beverage"
   },
   {
     "img": "../graphics/thumbs/family/pic15.jpg",
-    "alt": "pic15"
+    "alt": "pic15",
+    "imageTitle":"My Siter with new Brigde"
   },
   {
     "img": "../graphics/thumbs/family/pic16.jpg",
-    "alt": "pic16"
+    "alt": "pic16",
+     "imageTitle":"My Brother In Law"
   }
 ]
