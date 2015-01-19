@@ -20,6 +20,23 @@ In order to run the website properly, you need to run web app server<br /><br />
 7.HTML5 structure<br /><br />
 8.CSS and CSS3<br /><br />
 9.LESS <br /><br />
-10.PIXLR EDITOR: Online Photo Editor (like photoshop) to edit the images<br />
+10.PIXLR EDITOR: Online Photo Editor (like photoshop) to edit the images<br /><br />
 
 ===================SCREENSHOOTS=====================<br />
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/homepage.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/photopage.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/photoCarousel.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/mediapage.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/videos.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/movies.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/comedies.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/album.png)<br />
+
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/about.png)<br />
