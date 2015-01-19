@@ -39,4 +39,4 @@ In order to run the website properly, you need to run web app server<br /><br />
 
 ![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/album.png)<br />
 
-![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/about.png)<br />
+![ScreenShot](https://raw.githubusercontent.com/tommythongnguyen/Responsive-Personal-Website/master/www/graphics/githubImages/aboutpage.png)<br />
