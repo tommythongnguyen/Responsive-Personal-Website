@@ -10,7 +10,7 @@ In order to run the website properly, you need to run web app server<br /><br />
 4/Enjoy<br /><br />
 
 ===========================================<br />
-What did i use to create the website<br /><br />
+<h2>What did i use to create the website</h2><br />
 1.BOOTSTRAP 3 : To create responsive webiste<br /><br />
 2.JAVASCRIPT : To create website functionalities and work with Bootstrap 3 components<br /><br />
 3.JQUERY: to do DOM Manipulation and AJAX<br /><br />
