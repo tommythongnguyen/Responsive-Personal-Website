@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>com.logicdrop.wam.ux</artifactId>
 	
-	<description>Angular</description>
+	<description>Responsive Web Site</description>
 	<!-- ********** Parent ********** -->
 	<parent>
 		<artifactId>com.logicdrop.wam</artifactId>

@@ -21,3 +21,5 @@ In order to run the website properly, you need to run web app server<br /><br />
 8.CSS and CSS3<br /><br />
 9.LESS <br /><br />
 10.PIXLR EDITOR: Online Photo Editor (like photoshop) to edit the images<br />
+
+===================SCREENSHOOTS=====================<br />
