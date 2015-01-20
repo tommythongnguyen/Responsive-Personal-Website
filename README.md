@@ -1,7 +1,7 @@
 Responsive-Personal-Website
 ===========================
 
-My Responsive Personal Website is design to work cross-browsers and cross-devices<br />
+<h1>Responsive Website with Jquery and JavaScript</h1><br />
 
 In order to run the website properly, you need to run web app server<br /><br />
 1/go to folder "Responsive-Persional-Website":  cd Responsive-Persional-Website<br /><br />
