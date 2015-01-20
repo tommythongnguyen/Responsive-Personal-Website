@@ -1,9 +1,7 @@
-Responsive-Personal-Website
-===========================
 
 <h1>Responsive Website with Jquery and JavaScript</h1><br />
-
-In order to run the website properly, you need to run web app server<br /><br />
+//==================================================================
+<h3>In order to run the website properly, you need to run web app server:</h3><br /><br />
 1/go to folder "Responsive-Persional-Website":  cd Responsive-Persional-Website<br /><br />
 2/and then run jetty server:                    mvn jetty:run<br /><br />
 3/open your favourite web browser and type:  http://localhost:9003/web<br /><br />
